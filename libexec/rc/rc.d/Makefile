@@ -83,7 +83,6 @@ CONFS=	DAEMON \
 	rarpd \
 	rctl \
 	root \
-	route6d \
 	routing \
 	rpcbind \
 	rtadvd \
@@ -301,10 +300,6 @@ SSHPACKAGE=	ssh
 
 .if ${MK_PF} != "no"
 CONFS+=		ftp-proxy
-.endif
-
-.if ${MK_ROUTED} != "no"
-CONFS+=		routed
 .endif
 
 .if ${MK_SENDMAIL} != "no"

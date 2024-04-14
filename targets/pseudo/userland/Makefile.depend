@@ -121,8 +121,6 @@ DIRDEPS+= \
 	sbin/resolvconf \
 	sbin/restore \
 	sbin/route \
-	sbin/routed \
-	sbin/routed/rtquery \
 	sbin/rtsol \
 	sbin/savecore \
 	sbin/setkey \
@@ -657,11 +655,9 @@ DIRDEPS+= \
 	usr.sbin/quotaon \
 	usr.sbin/rarpd \
 	usr.sbin/repquota \
-	usr.sbin/rip6query \
 	usr.sbin/rmt \
 	usr.sbin/rndc \
 	usr.sbin/rndc-confgen \
-	usr.sbin/route6d \
 	usr.sbin/rpc.lockd \
 	usr.sbin/rpc.statd \
 	usr.sbin/rpc.umntall \

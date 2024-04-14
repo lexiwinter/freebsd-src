@@ -806,8 +806,7 @@ Included for Solaris compatibility.
 Set the routing metric of the interface to
 .Ar n ,
 default 0.
-The routing metric is used by the routing protocol
-.Pq Xr routed 8 .
+The routing metric is used by the RIP routing protocol.
 Higher metrics have the effect of making a route
 less favorable; metrics are counted as additional hops
 to the destination network or host.
@@ -3289,7 +3288,6 @@ tried to alter an interface's configuration.
 .Xr devd 8 ,
 .Xr jail 8 ,
 .Xr rc 8 ,
-.Xr routed 8 ,
 .Xr sysctl 8
 .Sh HISTORY
 The

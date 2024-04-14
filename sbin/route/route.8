@@ -45,10 +45,6 @@ The
 .Nm
 utility is used to manually manipulate the network
 routing tables.
-It normally is not needed, as a
-system routing table management daemon, such as
-.Xr routed 8 ,
-should tend to this task.
 .Pp
 The
 .Nm
@@ -546,17 +542,12 @@ The next-hop gateway should be reachable through a different route.
 .Xr route 4 ,
 .Xr loader.conf 5 ,
 .Xr arp 8 ,
-.Xr routed 8
 .Sh HISTORY
 The
 .Nm
 utility appeared in
 .Bx 4.2 .
 .Sh BUGS
-The first paragraph may have slightly exaggerated
-.Xr routed 8 Ns 's
-abilities.
-.Pp
 Currently, routes with the
 .Dv RTF_BLACKHOLE
 flag set need to have the gateway set to an instance of the

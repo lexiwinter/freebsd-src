@@ -51,6 +51,14 @@
 #   xargs -n1 | sort | uniq -d;
 # done
 
+# 20240414: remove RIP/RIPng
+OLD_FILES+=etc/rc.d/route6d
+OLD_FILES+=etc/rc.d/routed
+OLD_FILES+=sbin/routed
+OLD_FILES+=sbin/rtquery
+OLD_FILES+=usr.sbin/route6d
+OLD_FILES+=usr.sbin/rip6query
+
 # 2024mmdd: new clang import which bumps version from 17 to 18
 OLD_FILES+=usr/lib/clang/17/include/__clang_cuda_builtin_vars.h
 OLD_FILES+=usr/lib/clang/17/include/__clang_cuda_cmath.h
