@@ -1,0 +1,8 @@
+# std.amd64 -- standard options for AMD64 kernels.
+
+options 	NUMA			# Non-Uniform Memory Architecture support
+options 	PREEMPTION		# Enable kernel thread preemption
+options 	EFIRT			# EFI Runtime Services support
+options 	COMPAT_FREEBSD32	# Compatible with i386 binaries
+options 	HWPMC_HOOKS		# Necessary kernel hooks for hwpmc(4)
+options		KBD_INSTALL_CDEV	# install a CDEV entry in /dev
